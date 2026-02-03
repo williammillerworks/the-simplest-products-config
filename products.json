@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": "combine-images",
+      "name": "Combine Images",
+      "description": "Merge multiple images into one",
+      "url": "https://combine-images.yourdomain.com",
+      "icon": "🖼️"
+    },
+    {
+      "id": "pdf-to-image",
+      "name": "PDF to Image Converter",
+      "description": "Convert PDF pages to images",
+      "url": "https://pdf-to-image.yourdomain.com",
+      "icon": "📄"
+    },
+    {
+      "id": "images-to-webp",
+      "name": "Images to Webp",
+      "description": "Convert images to WebP format",
+      "url": "https://images-to-webp.yourdomain.com",
+      "icon": "🎨"
+    },
+    {
+      "id": "epub-reducer",
+      "name": "Epub File Size Reducer",
+      "description": "Reduce the size of EPUB files",
+      "url": "https://epub-reducer.yourdomain.com",
+      "icon": "📚"
+    }
+  ]
+}
