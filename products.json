@@ -1,32 +1,142 @@
 {
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-02-04",
+    "totalProducts": 4
+  },
+  "categories": [
+    {
+      "id": "image-tools",
+      "name": "Image Tools",
+      "description": "Tools for image manipulation and conversion",
+      "icon": "🖼️",
+      "order": 1
+    },
+    {
+      "id": "document-tools",
+      "name": "Document Tools",
+      "description": "Tools for document processing and conversion",
+      "icon": "📄",
+      "order": 2
+    },
+    {
+      "id": "file-tools",
+      "name": "File Tools",
+      "description": "Tools for file compression and optimization",
+      "icon": "📁",
+      "order": 3
+    }
+  ],
   "products": [
     {
       "id": "combine-images",
-      "name": "Combine Images",
-      "description": "Merge multiple images into one",
-      "url": "https://combine-images.yourdomain.com",
-      "icon": "🖼️"
+      "name": "The Simplest Combine Images",
+      "shortName": "Combine Images",
+      "description": "Merge multiple images into one seamlessly",
+      "longDescription": "Combine multiple images vertically or horizontally into a single image file. Perfect for creating collages, comparison images, or concatenating screenshots.",
+      "icon": "🖼️",
+      "category": "image-tools",
+      "tags": ["image", "merge", "combine", "collage"],
+      "url": "https://combine-images.thesimplest.tools",
+      "github": "https://github.com/williammillerworks/the-simplest-combine-images",
+      "status": "live",
+      "featured": true,
+      "version": "1.0.0",
+      "dateAdded": "2024-01-15",
+      "features": [
+        "Combine images vertically or horizontally",
+        "Support for multiple image formats",
+        "No file size limits",
+        "Privacy-focused (client-side processing)"
+      ],
+      "supportedFormats": ["jpg", "png", "webp", "gif"],
+      "pricing": {
+        "type": "free",
+        "cost": 0
+      }
     },
     {
       "id": "pdf-to-image",
-      "name": "PDF to Image Converter",
-      "description": "Convert PDF pages to images",
-      "url": "https://pdf-to-image.yourdomain.com",
-      "icon": "📄"
+      "name": "The Simplest PDF to Image Converter",
+      "shortName": "PDF to Image",
+      "description": "Convert PDF pages to high-quality images",
+      "longDescription": "Transform PDF documents into individual image files. Extract all pages or select specific ones. Perfect for sharing presentations, creating thumbnails, or archiving documents.",
+      "icon": "📄",
+      "category": "document-tools",
+      "tags": ["pdf", "convert", "image", "export"],
+      "url": "https://pdf-to-image.thesimplest.tools",
+      "github": "https://github.com/williammillerworks/the-simplest-pdf-to-images-converter",
+      "status": "live",
+      "featured": true,
+      "version": "1.0.0",
+      "dateAdded": "2024-02-10",
+      "features": [
+        "Convert all pages or select specific ones",
+        "High-quality output",
+        "Multiple output formats",
+        "Batch processing"
+      ],
+      "supportedFormats": ["pdf"],
+      "outputFormats": ["png", "jpg", "webp"],
+      "pricing": {
+        "type": "free",
+        "cost": 0
+      }
     },
     {
       "id": "images-to-webp",
-      "name": "Images to Webp",
-      "description": "Convert images to WebP format",
-      "url": "https://images-to-webp.yourdomain.com",
-      "icon": "🎨"
+      "name": "The Simplest Images to Webp",
+      "shortName": "Images to WebP",
+      "description": "Convert images to modern WebP format",
+      "longDescription": "Convert your images to WebP format for better compression and faster loading. Reduce file sizes by up to 80% while maintaining quality. Perfect for web optimization.",
+      "icon": "🎨",
+      "category": "image-tools",
+      "tags": ["webp", "convert", "optimize", "compress"],
+      "url": "https://images-to-webp.thesimplest.tools",
+      "github": "https://github.com/williammillerworks/the-simplest-images-to-webp-converter",
+      "status": "live",
+      "featured": false,
+      "version": "1.0.0",
+      "dateAdded": "2024-03-05",
+      "features": [
+        "Batch conversion",
+        "Adjustable quality settings",
+        "Up to 80% smaller file sizes",
+        "Preserves image quality"
+      ],
+      "supportedFormats": ["jpg", "png", "gif", "bmp"],
+      "outputFormats": ["webp"],
+      "pricing": {
+        "type": "free",
+        "cost": 0
+      }
     },
     {
       "id": "epub-reducer",
-      "name": "Epub File Size Reducer",
-      "description": "Reduce the size of EPUB files",
-      "url": "https://epub-reducer.yourdomain.com",
-      "icon": "📚"
+      "name": "The Simplest Epub File Size Reducer",
+      "shortName": "Epub Reducer",
+      "description": "Reduce EPUB file sizes for faster transfers",
+      "longDescription": "Compress EPUB files by optimizing images and removing unnecessary data. Perfect for e-readers with limited storage or faster email attachments.",
+      "icon": "📚",
+      "category": "file-tools",
+      "tags": ["epub", "compress", "reduce", "ebook"],
+      "url": "https://epub-reducer.thesimplest.tools",
+      "github": "https://github.com/williammillerworks/the-simplest-epub-file-size-reducer",
+      "status": "live",
+      "featured": false,
+      "version": "1.0.0",
+      "dateAdded": "2024-03-20",
+      "features": [
+        "Compress images in EPUB files",
+        "Remove metadata bloat",
+        "Preserve formatting and layout",
+        "Significant file size reduction"
+      ],
+      "supportedFormats": ["epub"],
+      "pricing": {
+        "type": "free",
+        "cost": 0
+      }
     }
   ]
 }
